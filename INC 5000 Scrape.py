@@ -17,7 +17,7 @@ for item in companies:
         'growth': item.find("div", class_="growth").text,
         'industry': item.find("div", class_="industry").text,
         'state': item.find("div", class_="state").text,
-        'city': item.find("div", class_="city").text,
+        'city': item.find("div", class_="city").text
         }
     company_list.append(company)
 
